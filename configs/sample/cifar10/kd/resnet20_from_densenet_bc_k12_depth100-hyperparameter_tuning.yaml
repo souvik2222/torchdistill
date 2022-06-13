@@ -62,7 +62,7 @@ models:
 
 train:
   log_freq: 100
-  num_epochs: 182
+  num_epochs: 10
   train_data_loader:
     dataset_id: *cifar10_train
     random_sample: True
